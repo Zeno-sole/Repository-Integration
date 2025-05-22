@@ -1,14 +1,11 @@
 # Required
 message: |
-  Integrated for V23-Release
+  Integrated for V25-Release
 # Not required, now default is V23-Release
-milestone: V23-Release
+milestone: V25-Release
 # Required
 repos: 
   # Required
-  - repo: linuxdeepin/deepin-home-appstore-client
-    tagsha: "develop/snipe"
-    gitaddr: "ssh://uta00001@gerrit.uniontech.com:29418/deepin-home-appstore-client"
-  - repo: linuxdeepin/deepin-home-appstore-daemon
-    tagsha: "develop/snipe"
-    gitaddr: "ssh://uta00001@gerrit.uniontech.com:29418/deepin-home-appstore-daemon"
+  - repo: linuxdeepin/utpm2
+    tagsha: "cb5e3225904ab9243b235e61b70e43c84a44b98f"
+    gitaddr: "ssh://uta00001@gerrit.uniontech.com:29418/utpm2"
